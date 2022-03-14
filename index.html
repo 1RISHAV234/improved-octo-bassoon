@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google lens vs MobileNet</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <link rel="stylesheet" href="stype.css">
+    </head>
+    <body>
+        <center>
+            <h1 class="text-danger" style="font-family: ariel;">Case Study between google lens and MobileNet</h1>
+            <br>
+            <div style="display:inline-block"><h2 style="margin-right: 30px;">Google Lens</h2></div>
+            <div style="display: inline-block;"><a href = "https://play.google.com/store/apps/details?id=com.google.ar.lens&hl=en_IN&gl=US" target="_blank"><img id="l" style="margin-bottom: 10px;border-radius: 10px;" src = "https://play-lh.googleusercontent.com/G5oF0mhpOcQzFTrU6TDUL0JoAjzRt38weiZKua7L61WVT1z3dPcE9gUu-W2EwtM9cZU" width="90px"></div></a>
+            <br>
+            <h3 class="text-danger">vs</h3>
+            <br>
+            <a href="https://www.ml5js.org" target="_blank"><div class="btn btn-primary" style="font-size:20px;letter-spacing: 1px;font-family: Segoe UI;">MobileNet</div></a>
+            <hr>
+            <ol>
+                <div class="testimages col-xs-12"  >
+                    <br>
+                    <li class="col-sm-4 col-xs-6">
+                        <b>Test Images</b>
+                        <img style="margin-top: 20px; border-radius: 20px;" src="reusable-water.png" class="img-responsive" width="300">
+                    </li>
+                    <h5 class="col-sm-4 col-xs-12">Output on <b>Google Lens:</b><span style="font-weight:600;color: rgb(255, 89, 89);margin-left: 5px;">Bottle</span></h5>
+                    <h5 class="col-sm-4 col-xs-12">Output on <b>MobileNet Model:</b><span style="font-weight:600;color: rgb(255, 89, 89);margin-left: 5px;">Glass</span></h5>
+                    <div class="result col-xs-8">
+                        <hr>
+                        <h5 style="font-weight:600;color: rgb(255, 89, 89);margin-left: 5px;">Result : </h5>
+                        <hr>
+                        <h5 style="background-image: linear-gradient(to right, lightcyan,white); padding-top: 20px;padding-bottom: 20px; border-radius: 10px;font-weight:600;color: rgb(0, 0, 0);margin-left: 5px;font-weight: 20px ;">According to my opinion, Google lens wins by 4 and MobileNet has only 1 correct answer so, google lens clearly wins at detecting objects..</h5>
+                        <hr>
+                    </div>
+                    <br>
+                </div>
+            </ol>
+        </center>
+    </body>
+</html>

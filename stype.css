@@ -1,0 +1,23 @@
+body {
+    background-image: linear-gradient(rgb(255, 199, 176),white);
+}
+li {
+    list-style: none;
+}
+b {
+    border-radius: 10px;
+    background-color:white ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.testimages {
+    border-radius: 10px;
+    background-color: gray;
+    margin-right: 100px;
+    width: 97%;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+}
